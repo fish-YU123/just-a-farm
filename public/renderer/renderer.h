@@ -2,10 +2,10 @@
 #define RENDERER_H
 
 #include <string>
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
+#include "../../SDL2-2.32.10/x86_64-w64-mingw32/include/SDL2/SDL.h"
+#include "../../SDL2-2.32.10/x86_64-w64-mingw32/include/SDL2/SDL_image.h"
 #include <stdexcept>
-
+//E:\code\c++\just-a-farm\SDL2_image-2.8.0
 class Renderer {
 private:
     SDL_Window* window;       // 窗口指针
